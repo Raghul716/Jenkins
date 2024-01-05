@@ -1,0 +1,12 @@
+!#/bin/bash
+name=$1
+age=$3
+lastname=$2
+visible=$4
+
+if [ "$visible" = "true" ]; then
+        echo "Hello I am $name $lastname and my age is $age years old"
+else
+        echo "please pass visible true!!!!"
+fi
+
