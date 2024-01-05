@@ -6,3 +6,21 @@ Single master node can have Multiple Worker Node.
 Master Controls the Load Distribution on slave nodes
 Note: Jenkins must not be installed in slave node only jdk must be installed
 
+Master Node:
+Schedule Build Job
+Dispatch Build Execution to slave Node
+Monitor Slave and record the build result
+
+Slave  Node
+Execute Build dispatched by Master
+
+What is a job:-
+Job: in jenkins is any runnable task that is controlled by Jenkins.
+FreeStyle Project:-
+this is a most common type of prohect. Build tupe for this project is generally execute a shell or bash commands 
+Pipeline:-
+These type pf Projects used to  be called as Workflow. These projects are normally written in DSL
+Multiconfiguration Project:-
+This is for project which will be tested on multiple environments and require environment specific configuration.
+
+
