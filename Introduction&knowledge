@@ -1,1 +1,8 @@
+Jenkins Architecture
+Jenkins follow the master slave architecture
+Masternode - Work like a controller
+Workernode - worker node will work as a Execution Node.
+Single master node can have Multiple Worker Node.
+Master Controls the Load Distribution on slave nodes
+Note: Jenkins must not be installed in slave node only jdk must be installed
 
